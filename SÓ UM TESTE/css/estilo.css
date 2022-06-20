@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Arimo', sans-serif;
+    scroll-behavior: smooth;
+    padding: 0px;
+    text-decoration: none;
+    color: #3f4656;
+}
+img{
+    width: 400px;
+}
+body{
+    background-color: #e9ecf7;
+    margin: 0;
+}
+.image-principal{
+    width: 540px;
+}
+.margem{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+.navegacao{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+}
+.navegacao-branca{
+ background-color: white;
+ padding-left: 3%;
+ padding-right: 3%;
+ padding-top: 3%;
+ padding-bottom: 3%;
+ box-shadow: 1px 1px 10px rgb(97, 97, 97);
+}
+.duas-colunas{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    align-items: center;
+    font-size: 25px;
+}
+.justificar{
+    text-align: justify;
+}
+.centralizar{
+    text-align: center;
+}
+.cabecalho{
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.links{
+    display: flex;
+    gap: 100px;
+    font-size: 22px;
+}
+.links > a:hover {
+    color: #ff043f;
+}
+.titulo{
+    font-size: 50px;
+    margin: 20px 0px;
+    display: flex;
+}
+.titulo-vermelho{
+    font-size: 50px;
+    text-align: center;
+    color: #ff043f;
+}
+.titulo-menor{
+    font-size: 25px;
+}
+.marcacao{
+    color: #ff043f;
+    margin-left: 15px;
+    text-align: center;
+}
+.botao{
+    text-decoration: none;
+    background-color: #ff043f;
+    padding: 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    margin-top: 50px;
+}
+.botao > a{
+    color: rgb(255, 255, 255); 
+}
+.bg-tabelas{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.quadrado-imagem{
+    align-content: center;
+}
+.quadrado-imagem > h2{
+    font-size: 35px;
+    text-align: center;
+}
+.img-tabelas{
+    width: 200px;
+}
