@@ -20,6 +20,11 @@ body{
     margin-left: 20px;
     margin-right: 20px;
    }
+.margem-especial{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
 .navegacao{
     padding-left: 3%;
     padding-right: 3%;
