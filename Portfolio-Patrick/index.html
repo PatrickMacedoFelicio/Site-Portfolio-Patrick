@@ -14,6 +14,7 @@
             <div class="links">
             <a href="#OqueFaço">O que eu faço</a>
             <a href="#hobbies">Hobbies</a>
+            <a href="#faleconosco">Fale conosco</a>
             <a href="https://www.instagram.com/maiscedo_patrick/">Instagram</a>
             <a href="https://github.com/PatrickMacedoFelicio">GitHub</a>
             </div>
@@ -42,6 +43,7 @@
                 </div>
                 <div>
                     <p class="justificar">Eu sou o Patrick Macêdo Felicio, tenho 17 anos, nasci e moro em Ji-Paraná, Rondônia. Atualmente estudo no Instituto Federal de Rondônia cursando Técnico em Informática.</p>
+                    <p class="justificar">Participo de um projeto social chamado Fundação Jicred/Sonho Meu, lá temos a oportunidade de experienciar várias atividades, como teatro, recitais de músicas, campeonatos de esportes e várias outros. No instituto Federal participo do projeto Simulação robótica lecionado por Maigon Pontuschka.</p>
                 </div>
             </div>
         </div>
@@ -158,32 +160,38 @@
       <!--image slider end-->
     </center> 
     <div class="navegacao-branca">
-        <div class="margem">
-        <h1 class="titulo">Fale <div class="marcacao">conosco</div></h1>
-        <form name="formulario" action="busca.php" onsubmit="return valida();">
-            <h1>O que você achou do sitê?</h1>
-                <label class="container">One
-                <input type="radio" checked="checked" name="radio">
-                <span class="checkmark"></span>
-                </label>
-                <label class="container">Two
-                <input type="radio" name="radio">
-                <span class="checkmark"></span>
-                </label>
-                <label class="container">Three
-                <input type="radio" name="radio">
-                <span class="checkmark"></span>
-                </label>
-                <label class="container">Four
-                <input type="radio" name="radio">
-                <span class="checkmark"></span>
-                </label>
-                <div class="single-input">
-            <textarea>Some text...</textarea>
+        <div class="margem-especial">
+            <h1 id="faleconosco" class="titulo-vermelho">Fale conosco</h1>
+            <div class="duas-colunas">
+                <form name="formulario" action="busca.php" onsubmit="return valida();">
+                    <h2>O que você achou do site?</h2>
+                        <label class="container">Ótimo
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Bom
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Ruim
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Péssimo
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                        </label>
+                        <div class="single-input">
+                    <h2>Comente:</h2>
+                    <textarea></textarea>
+                    </div>
+                    <input class="botao" type="submit">
+                </form>
+                <div>
+                    <img src="image/pessoa-computador.png" alt="">
+                </div>
             </div>
-            <input type="submit">
-        </form>
-    </div>
+        </div>
     </div>
 </body>
 </html>
