@@ -4,3 +4,7 @@ function semColoracao(imagem){
    function comColoracao(imagem){
     imagem.src="image/maria-com-color-gradien.png";
    }
+
+   function valida() {
+    alert("Muito obrigado! :D");
+}
